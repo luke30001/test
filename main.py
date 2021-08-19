@@ -12,3 +12,6 @@ def write(file,txt):
     f.close()
 def append(file,txt):
     write(file,read(file)+txt)
+print(read("ciao"))
+append("file","ciao")
+print(read("file"))
